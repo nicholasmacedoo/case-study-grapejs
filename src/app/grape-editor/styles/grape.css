@@ -1,0 +1,60 @@
+/* We can remove the border we've set at the beginnig */
+/* #gjs {
+  border: none;
+}
+/* Theming */
+
+/* Primary color for the background */
+.gjs-one-bg {
+  background-color: #242424 !important;
+}
+
+/* Secondary color for the text color */
+.gjs-two-color {
+  color: #E5EDFF !important;
+} 
+
+/* Tertiary color for the background */
+/* .gjs-three-bg {
+  background-color: #0130A4 !important;
+  color: #E5EDFF !important;
+} */
+.gjs-cv-canvas {
+  /* background: #DDE1ED; */
+  /* --d: 2px; 
+  background: radial-gradient(
+    circle at 
+       var(--d) 
+       var(--d), 
+       
+       #E5EDFF calc(var(--d) - 1px), 
+    #0000 var(--d)
+  ) 
+  0 0 / 32px 32px; */
+  background-color: #1B1B1B;
+}
+/* Quaternary color for the text color */
+.gjs-four-color,
+.gjs-four-color-h:hover {
+  color: #3471DA !important;
+}
+
+.gjs-selected {
+  outline: 2px solid #3471DA !important;
+}
+
+/* .gjs-toolbar {
+  background: #3471DA;
+} */
+
+.gjs-rte-action {
+  width: fit-content;
+}
+.gjs-rte-action select.gjs-field {
+  background: #1B1B1B;
+}
+
+.gjs-blocks-cs,
+.gjs-pn-views-container {
+  padding-bottom: 10rem;
+}
